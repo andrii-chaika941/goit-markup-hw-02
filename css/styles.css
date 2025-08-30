@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -15,7 +16,7 @@ body {
 }
 
 .header-logo-navy {
-  color: navy;
+  color: #2e2f42;
 }
 a {
   text-decoration: none;
@@ -68,4 +69,13 @@ ul {
 .hero-section-btn:hover,
 :focus {
   background-color: #404bbf;
+}
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.features-descr {
+  line-height: 1.2;
 }
