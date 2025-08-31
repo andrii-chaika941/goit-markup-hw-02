@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -78,7 +79,30 @@ ul {
 }
 .features-descr {
   line-height: 1.5;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-descr {
+  line-height: 1.5;
 }
 .portfolio-title {
   font-size: 36px;
